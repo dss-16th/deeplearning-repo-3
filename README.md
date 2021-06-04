@@ -49,4 +49,4 @@
   ##### 2) 모델 적용 및 평가
   
  
-<gif src = "https://user-images.githubusercontent.com/78460413/120750940-28536700-c542-11eb-818c-5490d7d8e417.gif" width="700" height="370">
+<"https://user-images.githubusercontent.com/78460413/120750940-28536700-c542-11eb-818c-5490d7d8e417.gif" width="700" height="370">
