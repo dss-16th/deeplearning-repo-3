@@ -49,4 +49,4 @@
   ##### 2) 모델 적용 및 평가
   
 
-![2021-06-04 14 35 17](https://user-images.githubusercontent.com/78460413/120764699-6442f800-c553-11eb-8dc6-f6a90c680a77.gif){: width="20%" height="20%"}{: .align-center}
+![2021-06-04 14 35 17](https://user-images.githubusercontent.com/78460413/120764699-6442f800-c553-11eb-8dc6-f6a90c680a77.gif){: width="20%" height="20%"}
