@@ -6,6 +6,7 @@
 
 <br/>
 
+<img src="/Users/rudan/Downloads/2021-06-08 12.57.27.gif" width="250" height="250"/>
 
 ### *2. 참여자*
 - [고원진](https://github.com/wonjin77)
