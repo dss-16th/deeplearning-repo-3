@@ -6,8 +6,6 @@
 
 <br/>
 
-![Uploading 2021-06-08 12.57.27.gif…]()
-
 ![2021-06-08 12 57 27](https://user-images.githubusercontent.com/78460413/121121882-6eb70780-c85b-11eb-8d83-a39c5641a164.gif)
 
 ### *2. 참여자*
