@@ -37,6 +37,18 @@
 
   ##### 1) Data 구조
 ![image](https://user-images.githubusercontent.com/78459545/121801181-fe502200-cc70-11eb-843d-653eca501ba5.png)
+  ##### 1-1) 구조 상세(파일명)
+  - Multi view tracking Indoor / Multi view tracking Outdoor
+    - 실내/실외 cctv 영상
+  - 01~50_market / 01~50_street
+    - 1~50번 마켓/길거리 영상
+  - Frames
+    - 영상 별 정지 이미지 목록
+    - 라벨링 데이터로 활용
+  - sample_frames
+    - 탐지할 타겟 이미지
+  - videos
+    - 카메라 각도 별 영상 목록
   
   ##### 2) 모델 학습 환경
 ![image](https://user-images.githubusercontent.com/78459545/121801643-42442680-cc73-11eb-9c70-e2003fbc5c52.png)
