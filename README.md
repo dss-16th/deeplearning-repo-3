@@ -36,8 +36,7 @@
 #### 3-1. 내용
 
   ##### 1) Data
-https://github.com/dss-16th/deeplearning-repo-3/issues/1#issue-919751277
-
+![image](https://user-images.githubusercontent.com/78459545/121801181-fe502200-cc70-11eb-843d-653eca501ba5.png)
   
   ##### 2) Proto Data 학습 진행
   - YOLOv4, YOLOv5, TensorFlow Object Detection API 를 이용하여 proto data 학습 진행
