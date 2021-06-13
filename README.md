@@ -40,7 +40,7 @@
   ##### 1-1) 구조 상세(파일명)
   - Multi view tracking Indoor / Multi view tracking Outdoor
     - 실내/실외 cctv 영상
-  - 01~50_market / 01~50_street
+  - 01-50_market / 01-50_street
     - 1~50번 마켓/길거리 영상
   - Frames
     - 영상 별 정지 이미지 목록
