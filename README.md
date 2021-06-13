@@ -2,22 +2,21 @@
 
 <br/>
 
-### 1. 예상 일정 : 2021. 5. 4. ~ 2021. 6. 3.
-
-<br/>
-
 ![2021-06-08 12 57 27](https://user-images.githubusercontent.com/78460413/121121882-6eb70780-c85b-11eb-8d83-a39c5641a164.gif)
+
+### 1. 진행 기간 : 2021. 5. 4. ~ 2021. 6. 3.
 
 ### *2. 참여자*
 - [고원진](https://github.com/wonjin77)
 - [이지홍](https://github.com/jihong7107)
 - [이경무](https://github.com/rudan916)
-ㄲ
+
 
 <br/>
 
 
 ### 3. 예상 진행 방향
+
 
 <br/>
 
