@@ -40,6 +40,7 @@
   
   ##### 2) 모델 학습 환경
 ![image](https://user-images.githubusercontent.com/78459545/121801643-42442680-cc73-11eb-9c70-e2003fbc5c52.png)
+  - Google Colab pro 환경 내에 NVIDIA cudnn 설치하여 GPU 활성화
   - Darknet, PyTorch, Tensor Flow 프레임워크 별 YOLOv4, YOLOv5, TensorFlow Object Detection API 를 이용하여 proto data 학습 진행
 
   ##### 3) Proto Data 재학습
