@@ -30,6 +30,37 @@
     - 학습시간 최소화, 학습 데이터 최소화 
   - 차후 실종자 탐지, 미아 찾기 같은 분야에 기여 하고자 함 
 
+<br/>
+
+
+#### 3-1. 내용
+
+  ##### 1) Data
+![Uploading image.png…]()
+
+  
+  ##### 2) Proto Data 학습 진행
+  - YOLOv4, YOLOv5, TensorFlow Object Detection API 를 이용하여 proto data 학습 진행
+
+  ##### 3) Proto Data 재학습
+  - labeled image data 감소와 모델 성능 비교하여 최적 & 최소한의 data수 확인
+
+
+#### 3-2. 전체 data 적용
+
+  ##### 1) indoor / outdoor cctv data 최소 Labeling 진행
+
+  ##### 2) Data 학습 진행
+
+  ##### 3) 성능 확인
+
+
+#### 3-3. webcam을 이용한 실시간 추적 모델 만들기
+
+  ##### 1) 특정 대상 학습
+
+  ##### 2) 모델 적용 및 평가
+  
 
 <br/>
 
