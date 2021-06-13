@@ -33,11 +33,11 @@
 <br/>
 
 
-#### 3-1. 내용
+#### 4. 상세 내용
 
   ##### 1) Data 구조
 ![image](https://user-images.githubusercontent.com/78459545/121801181-fe502200-cc70-11eb-843d-653eca501ba5.png)
-  ##### 1-1) 구조 상세(파일명)
+  ##### 1-1) 구조 상세(파일명 기준)
   - Multi view tracking Indoor / Multi view tracking Outdoor
     - 실내/실외 cctv 영상
   - 01-50_market / 01-50_street
@@ -55,10 +55,28 @@
   - Google Colab pro 환경 내에 NVIDIA cudnn 설치하여 GPU 활성화
   - Darknet, PyTorch, Tensor Flow 프레임워크 별 YOLOv4, YOLOv5, TensorFlow Object Detection API 를 이용하여 proto data 학습 진행
 
-  ##### 3) Proto Data 재학습
-  - labeled image data 감소와 모델 성능 비교하여 최적 & 최소한의 data수 확인
+  ##### 3) 모델 설명
+  - TFOD
+    - Tensorflow 기반 Object Detection API
+    - 다양한 Pre-Trained Model(Model Zoo) 존재
+    - 사용자가 직접 Layer를 수정하지 않음(Pre-Trained Model 적용)
 
+  - YOLO v4
+    - Darknet 기반 Object Detection API
+    - TFOD와 V5 대비 많은 참고 자료
+    - config 파일을 이용한 데이터 증강과 레이어 수정의 자유도
 
+  - YOLO v5
+    - Darknet 기반이 아닌 pytorch 기반 Object Detection API
+    - 레이어 수에 따라 s , m , l , x 로 구분되며 크기에 따라 속도와 정확도의 차이를 보임
+
+  ##### 4) Labeling
+  특정인 라벨링
+  ![image](https://user-images.githubusercontent.com/78459545/121805304-9fe16e80-cc85-11eb-9150-66be667e8fc3.png)
+  
+  A 영상과 B 영상에서 특정인 학습 후, C 영상에서 탐지
+  ![image](https://user-images.githubusercontent.com/78459545/121805359-f3ec5300-cc85-11eb-84d0-ae27eba418d8.png)
+  
 #### 3-2. 전체 data 적용
 
   ##### 1) indoor / outdoor cctv data 최소 Labeling 진행
