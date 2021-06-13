@@ -36,7 +36,7 @@
 #### 3-1. 내용
 
   ##### 1) Data
-![Uploading image.png…]()
+https://github.com/dss-16th/deeplearning-repo-3/issues/1#issue-919751277
 
   
   ##### 2) Proto Data 학습 진행
