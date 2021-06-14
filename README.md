@@ -114,7 +114,7 @@
     - 데이터 증강 전처리(flip, blur, dropout 등)
     - 라벨링 방식 변화(타겟 3등분 라벨링)
  
-  #### 7. 데이터 증강(Data Augmentation) 및 모델 비교
+  #### 7. 프로젝트 최종 결과
   ##### 1) TFOD
   - MOG 적용하여 BackGound 삭제 후 Detection → 오히려 성능 하락
     - background gif 삽입 (ppt 17 page)
