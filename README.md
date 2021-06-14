@@ -99,18 +99,20 @@
   ##### 4) 정확도 개선 시도
   - TFOD
     - 학습 Epochs 추가
-    - 성능이 좋으나 무거운 모델 적용 후 테스트 영상 재생시간 급격히 상승(2시간)
-    - MOG 적용하여 BackGound 삭제 후 테스트 시 오히려 성능 하락 발생
-    - Affine(Shear, Scale) 데이터 증강 적용 후 성능 변동 불확실
+    - 무거운 모델 적용
+    - 배경 차분(Gaussian Mixture Model) 적용하여 BackGound 삭제 후 테스트
+    - Affine(Shear, Scale) 데이터 증강 적용
   
   - YOLOv4
     - 학습 Epochs 추가
-    - 이미지 사이즈(width, height) 상승으로 더 자세한 학습 시도 후 테스트시 제공 받은 데이터 화질이 떨어져 결과 차이 없음
-    - 라벨링된 데이터와 테스트 영상의 환경이 실내/실외인 점을 고려하여 노출도, 색조 증강 후 성능 상승
+    - 이미지 사이즈(width, height) 증강 적용
+    - 노출도(exposure), 색조(hue) 증강 적용
   
   - YOLOv4
     - 학습 Epochs 추가
-    - 데이터 증강 전처리
+    - 무거운 모델 적용
+    - 데이터 증강 전처리(flip, blur, dropout 등)
+    - 라벨링 방식 변화(타겟 3등분 라벨링)
  
   #### 7. 데이터 증강(Data Augmentation) 및 모델 비교
   ##### 1) TFOD
