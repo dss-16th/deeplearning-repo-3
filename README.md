@@ -94,53 +94,33 @@
  
   ##### 3) 학습된 모델 구현 테스트
   과적합/미인식 영상 삽입
-  - 테스트 모델(TFOD, V4, V5) 전체적으로 과적합/미인식 결과가 확인됨
-
-
-
-#### 3-2. 전체 data 적용
-
-  ##### 1) indoor / outdoor cctv data 최소 Labeling 진행
-
-  ##### 2) Data 학습 진행
-
-  ##### 3) 성능 확인
-
-
-#### 3-3. webcam을 이용한 실시간 추적 모델 만들기
-
-  ##### 1) 특정 대상 학습
-
-  ##### 2) 모델 적용 및 평가
+  - 테스트 모델(TFOD, V4, V5) 전체적으로 과적합/미인식 결과가 확인되어 개선 시도
   
-
-<br/>
-
-
-#### 3-1. Proto Labeling & Learning
-
-  ##### 1) Labeling
-  - labelimg를 이용한 labeling
+  ##### 4) 정확도 개선 시도
+  - TFOD
+    - 학습 Epochs 추가
+    - 성능이 좋으나 무거운 모델 적용 후 테스트 영상 재생시간 급격히 상승(2시간)
+    - MOG 적용하여 BackGound 삭제 후 테스트 시 오히려 성능 하락 발생
+    - Affine(Shear, Scale) 데이터 증강 적용 후 성능 변동 불확실
   
-  ##### 2) Proto Data 학습 진행
-  - YOLOv4, YOLOv5, TensorFlow Object Detection API 를 이용하여 proto data 학습 진행
-
-  ##### 3) Proto Data 재학습
-  - labeled image data 감소와 모델 성능 비교하여 최적 & 최소한의 data수 확인
-
-
-#### 3-2. 전체 data 적용
-
-  ##### 1) indoor / outdoor cctv data 최소 Labeling 진행
-
-  ##### 2) Data 학습 진행
-
-  ##### 3) 성능 확인
-
-
-#### 3-3. webcam을 이용한 실시간 추적 모델 만들기
-
-  ##### 1) 특정 대상 학습
-
-  ##### 2) 모델 적용 및 평가
+  - YOLOv4
+    - 학습 Epochs 추가
+    - 이미지 사이즈(width, height) 상승으로 더 자세한 학습 시도 후 테스트시 제공 받은 데이터 화질이 떨어져 결과 차이 없음
+    - 라벨링된 데이터와 테스트 영상의 환경이 실내/실외인 점을 고려하여 노출도, 색조 증강 후 성능 상승
   
+  - YOLOv4
+    - 학습 Epochs 추가
+    - 데이터 증강 전처리
+ 
+  #### 7. 데이터 증강(Data Augmentation) 및 모델 비교
+  ##### 1) TFOD
+  - MOG 적용하여 BackGound 삭제 후 Detection → 오히려 성능 하락
+    - background gif 삽입 (ppt 17 page)
+  - Affine(Shear, Scale) augment 적용 → 오히려 성능 변동 불확실
+    - affine gif 삽입 (ppt 19,20 page)
+  - 
+  ##### 2) YOLOv4
+  
+  ##### 3) YOLOv5
+  
+  ##### 4) 모델 비교(학습 최소화)
