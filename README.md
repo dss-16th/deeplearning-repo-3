@@ -11,9 +11,7 @@
 - [이지홍](https://github.com/jihong7107)
 - [이경무](https://github.com/rudan916)
 
-
 <br/>
-
 
 ### 3. 진행 방향 및 목표
 
@@ -33,7 +31,7 @@
 <br/>
 
 
-#### 4. 상세 내용
+#### 4. 제공 데이터
 
   ##### 1) Data 구조
 ![image](https://user-images.githubusercontent.com/78459545/121801181-fe502200-cc70-11eb-843d-653eca501ba5.png)
@@ -49,20 +47,19 @@
     - 탐지할 타겟 이미지
   - videos
     - 카메라 각도 별 영상 목록
-
-  ##### 2) Labeling
-  특정인 라벨링
-![image](https://user-images.githubusercontent.com/78459545/121805419-2eee8680-cc86-11eb-980f-d1c9270b778b.png)특정인 라벨링
   
-  A 영상과 B 영상에서 특정인 학습 후, C 영상에서 탐지
-  ![image](https://user-images.githubusercontent.com/78459545/121805359-f3ec5300-cc85-11eb-84d0-ae27eba418d8.png)A 영상과 B 영상에서 특정인 학습 후, C 영상에서 탐지
-  
-  ##### 3) 모델 학습 환경
-![image](https://user-images.githubusercontent.com/78459545/121801643-42442680-cc73-11eb-9c70-e2003fbc5c52.png)
+#### 5. 사용환경, Tool 및 알고리즘 설명
+![image](https://user-images.githubusercontent.com/78459545/121863359-bc89af00-cd36-11eb-8740-3205f0ae7b89.png)
   - Google Colab pro 환경 내에 NVIDIA cudnn 설치하여 GPU 활성화
   - Darknet, PyTorch, Tensor Flow 프레임워크 별 YOLOv4, YOLOv5, TensorFlow Object Detection API 를 이용하여 proto data 학습 진행
 
-  ##### 4) 모델 설명
+  ##### 1) 사용환경, Tool
+  - Tool : LabelImg, Yololabel, IINA player
+  - 라이브러리 : TensorFlow GPU(install NVIDIA cudnn)
+  - 프레임워크 : TensorFlow, Darknet, PyTorch
+  - 학습 알고리즘 : TensorFlow Object Detection, YOLOv4, YOLOv5
+
+  ##### 2) 알고리즘 설명
   - TFOD
     - Tensorflow 기반 Object Detection API
     - 다양한 Pre-Trained Model(Model Zoo) 존재
@@ -70,22 +67,37 @@
 
   - YOLO v4
     - Darknet 기반 Object Detection API
-    - TFOD와 V5 대비 많은 참고 자료
-    - config 파일을 이용한 데이터 증강과 레이어 수정의 자유도
+    - TFOD와 V5 대비 많은 참고 자료 많음
+    - 기존 YOLOv3 대비 더 많은 레이어 존재(config file 기준 v3 788 line, v4 1154 line)
+    - config 파일을 이용한 데이터 증강과 레이어 수정의 자유도가 높음
 
   - YOLO v5
     - Darknet 기반이 아닌 pytorch 기반 Object Detection API
     - 레이어 수에 따라 s , m , l , x 로 구분되며 크기에 따라 속도와 정확도의 차이를 보임
+  
+  #### 6. 전체 과정(요약)
 
-  ##### 5) training model
-  예시)
+  ##### 1) Labeling
+  특정인 라벨링
+![image](https://user-images.githubusercontent.com/78459545/121805419-2eee8680-cc86-11eb-980f-d1c9270b778b.png)
+  
+  A 영상과 B 영상에서 특정인 학습 후, C 영상에서 탐지
+  ![image](https://user-images.githubusercontent.com/78459545/121805359-f3ec5300-cc85-11eb-84d0-ae27eba418d8.png)
+
+  ##### 2) 데이터 학습 예시
   ![image](https://user-images.githubusercontent.com/78459545/121805939-7c6bf300-cc88-11eb-94ae-7839234fad98.png)
   - YOLOv4 학습시 구성요소
     - config(.cfg) : 해당 모델의 학습 layer가 포함됨
     - .data : weight 저장경로, classes.txt(label) 경로, 학습 데이터 경로가 포함됨
     - classes.txt : label
     - yolov4.conv.137 : pre-trained model
-  
+ 
+  ##### 3) 학습된 모델 구현 테스트
+  과적합/미인식 영상 삽입
+  - 테스트 모델(TFOD, V4, V5) 전체적으로 과적합/미인식 결과가 확인됨
+
+
+
 #### 3-2. 전체 data 적용
 
   ##### 1) indoor / outdoor cctv data 최소 Labeling 진행
