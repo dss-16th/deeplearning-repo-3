@@ -49,13 +49,20 @@
     - 탐지할 타겟 이미지
   - videos
     - 카메라 각도 별 영상 목록
+
+  ##### 2) Labeling
+  특정인 라벨링
+![image](https://user-images.githubusercontent.com/78459545/121805419-2eee8680-cc86-11eb-980f-d1c9270b778b.png)특정인 라벨링
   
-  ##### 2) 모델 학습 환경
+  A 영상과 B 영상에서 특정인 학습 후, C 영상에서 탐지
+  ![image](https://user-images.githubusercontent.com/78459545/121805359-f3ec5300-cc85-11eb-84d0-ae27eba418d8.png)A 영상과 B 영상에서 특정인 학습 후, C 영상에서 탐지
+  
+  ##### 3) 모델 학습 환경
 ![image](https://user-images.githubusercontent.com/78459545/121801643-42442680-cc73-11eb-9c70-e2003fbc5c52.png)
   - Google Colab pro 환경 내에 NVIDIA cudnn 설치하여 GPU 활성화
   - Darknet, PyTorch, Tensor Flow 프레임워크 별 YOLOv4, YOLOv5, TensorFlow Object Detection API 를 이용하여 proto data 학습 진행
 
-  ##### 3) 모델 설명
+  ##### 4) 모델 설명
   - TFOD
     - Tensorflow 기반 Object Detection API
     - 다양한 Pre-Trained Model(Model Zoo) 존재
@@ -69,13 +76,6 @@
   - YOLO v5
     - Darknet 기반이 아닌 pytorch 기반 Object Detection API
     - 레이어 수에 따라 s , m , l , x 로 구분되며 크기에 따라 속도와 정확도의 차이를 보임
-
-  ##### 4) Labeling
-  특정인 라벨링
-![image](https://user-images.githubusercontent.com/78459545/121805419-2eee8680-cc86-11eb-980f-d1c9270b778b.png)
-  
-  A 영상과 B 영상에서 특정인 학습 후, C 영상에서 탐지
-  ![image](https://user-images.githubusercontent.com/78459545/121805359-f3ec5300-cc85-11eb-84d0-ae27eba418d8.png)
 
   ##### 5) training model
   예시)
