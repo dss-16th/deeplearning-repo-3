@@ -93,7 +93,7 @@
     - yolov4.conv.137 : pre-trained model
  
   ##### 3) 학습된 모델 구현 테스트
-![2021-06-18 20 50 00]<image src="https://user-images.githubusercontent.com/78459545/122557083-46a77f80-d077-11eb-9438-d363818a33fb.gif" width="400" height="790">
+!<image src="https://user-images.githubusercontent.com/78459545/122557083-46a77f80-d077-11eb-9438-d363818a33fb.gif" align="left" width="550" height="300">
   - 테스트 모델(TFOD, V4, V5) 전체적으로 과적합/미인식 결과가 확인되어 개선 시도
   
   ##### 4) 정확도 개선 시도
