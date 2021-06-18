@@ -91,13 +91,17 @@
     - .data : weight 저장경로, classes.txt(label) 경로, 학습 데이터 경로가 포함됨
     - classes.txt : label
     - yolov4.conv.137 : pre-trained model
+
+</br>
  
   ##### 3) 학습된 모델 구현 테스트
 <image src="https://user-images.githubusercontent.com/78459545/122557902-596e8400-d078-11eb-8405-20150b3bf59a.png" align="left" width="200" height="400">
 &emsp; <image src="https://user-images.githubusercontent.com/78459545/122557083-46a77f80-d077-11eb-9438-d363818a33fb.gif" align="right" width="650" height="400">
 &emsp; 테스트 모델(TFOD, V4, V5) 전체적으로 과적합/미인식 결과가 확인되어 개선 시도
+
+</br>
   
-&emsp;  ##### 4) 정확도 개선 시도
+  ##### 4) 정확도 개선 시도
   - TFOD
     - 학습 Epochs 추가
     - 배경 차분(Gaussian Mixture Model) 적용하여 BackGound 삭제 후 테스트
