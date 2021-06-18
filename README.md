@@ -95,9 +95,9 @@
 </br>
  
   ##### 3) 학습된 모델 구현 테스트
-<image src="https://user-images.githubusercontent.com/78459545/122557902-596e8400-d078-11eb-8405-20150b3bf59a.png" width="200" height="400">
-&emsp; <image src="https://user-images.githubusercontent.com/78459545/122557083-46a77f80-d077-11eb-9438-d363818a33fb.gif" align="right" width="650" height="400">
-outline; 테스트 모델(TFOD, V4, V5) 전체적으로 과적합/미인식 결과가 확인되어 개선 시도
+Target
+<image src="https://user-images.githubusercontent.com/78459545/122564111-f5e85480-d07f-11eb-84f3-2c74478edaea.gif">
+  - 테스트 모델(TFOD, V4, V5) 전체적으로 과적합/미인식 결과가 확인됨
 
 </br>
   
@@ -154,4 +154,4 @@ outline; 테스트 모델(TFOD, V4, V5) 전체적으로 과적합/미인식 결�
     - 충분한 학습 시간이 주어지는 경우 IoU 수치와 육안상으로 봤을 때 YOLOv5의 정확도가 가장 우수함
     
    #### 8. 아쉬운 점
-가가가가가가가가가가가가가
+ㄴㄴㄴㄴ
