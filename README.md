@@ -132,7 +132,7 @@ Target
   
   - 학습 Epochs 추가 → 정확도 증가(과적합 방지, 인식률)
   **************gif**************************
-  <image src="https://user-images.githubusercontent.com/78459545/122723100-822b8f00-d2ad-11eb-8cbd-bc96afcf5f1f.gif" width="370"/><image src="https://user-images.githubusercontent.com/78459545/122723291-c28b0d00-d2ad-11eb-8f83-dad02d508a38.gif" width="370"/>
+  <image src="https://user-images.githubusercontent.com/78459545/122723100-822b8f00-d2ad-11eb-8cbd-bc96afcf5f1f.gif" width="380"/><image src="https://user-images.githubusercontent.com/78459545/122723291-c28b0d00-d2ad-11eb-8f83-dad02d508a38.gif" width="380"/>
   - 이미지 사이즈(width, height) 증강 적용 → 성능 변동 없음
     - 요인 : 저화질 영상인 관계로 자세한 학습 불가(학습 시간만 증가)
   - 노출도(exposure), 색조(hue) 증강 적용 → 정확도 증가
