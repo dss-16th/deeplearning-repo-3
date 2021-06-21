@@ -137,8 +137,8 @@ Target
   **************gif**************************
   - 노출도(exposure), 색조(hue) 증강 적용 → 정확도 증가
     - 요인 : 라벨링 데이터 중 실외 이미지도 라벨링 처리한 점을 고려하여 노출도(exposure) 조절
-<image src="https://user-images.githubusercontent.com/78459545/122715476-e184a180-d2a3-11eb-8479-cb54c0576370.gif" width=500 align="left">
-<image src="https://user-images.githubusercontent.com/78459545/122715637-1ee92f00-d2a4-11eb-8aff-6486d4790cfe.gif" width=500 align="right">
+<image src="https://user-images.githubusercontent.com/78459545/122715476-e184a180-d2a3-11eb-8479-cb54c0576370.gif" width="500" /><image src="https://user-images.githubusercontent.com/78459545/122715637-1ee92f00-d2a4-11eb-8aff-6486d4790cfe.gif" width="500" />
+
   - pre-trained 모델 미사용 → 정확도 대폭 감소
     - 요인 : pre-trained 모델 미사용
   **************gif**************************
