@@ -90,6 +90,7 @@
 
   ##### 2) 데이터 학습 예시
 <image src="https://user-images.githubusercontent.com/78459545/121805939-7c6bf300-cc88-11eb-94ae-7839234fad98.png"> 
+  
   - YOLOv4 학습시 구성요소
     - config(.cfg) : 해당 모델의 학습 layer가 포함됨
     - .data : weight 저장경로, classes.txt(label) 경로, 학습 데이터 경로가 포함됨
@@ -161,5 +162,6 @@ Target
     - YOLOv4는 색 증강에 효과를 봤지만, YOLOv5는 색 관련 증강으로 성능 증가가 어려움
     - 충분한 학습 시간이 주어지는 경우 IoU 수치와 육안상으로 봤을 때 YOLOv5의 정확도가 가장 우수함
     
-   #### 8. 아쉬운 점
-ㄴㄴㄴㄴ
+   #### 8. 결론
+
+   ##### 1) 
