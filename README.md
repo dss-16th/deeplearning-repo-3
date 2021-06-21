@@ -152,6 +152,7 @@ Target
   **************ppt 26 page gif**************************
   
   ##### 4) 모델 비교(학습 최소화)
+  
   - YOLOv4-----------------------YOLOv5
 <image src="https://user-images.githubusercontent.com/78459545/122730706-7cd24280-d2b5-11eb-9ada-971c875f6ed2.gif" width="400"/><image src="https://user-images.githubusercontent.com/78459545/122730573-57ddcf80-d2b5-11eb-98c8-bac2699607d0.gif" width="400"/>
   - 차이점
