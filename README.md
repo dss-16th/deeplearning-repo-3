@@ -2,7 +2,7 @@
 
 <br/>
 
-![2021-06-08 12 57 27](https://user-images.githubusercontent.com/78460413/121121882-6eb70780-c85b-11eb-8d83-a39c5641a164.gif)
+<image src="https://user-images.githubusercontent.com/78460413/121121882-6eb70780-c85b-11eb-8d83-a39c5641a164.gif" width="500">
 
 ### 1. 진행 기간 : 2021. 5. 4. ~ 2021. 6. 3.
 
@@ -30,11 +30,11 @@
 
 <br/>
 
-
 #### 4. 제공 데이터
 
   ##### 1) Data 구조
-![image](https://user-images.githubusercontent.com/78459545/121801181-fe502200-cc70-11eb-843d-653eca501ba5.png)
+<image src="https://user-images.githubusercontent.com/78459545/121801181-fe502200-cc70-11eb-843d-653eca501ba5.png" width="500">
+
   ##### 1-1) 구조 상세(파일명 기준)
   - Multi view tracking Indoor / Multi view tracking Outdoor
     - 실내/실외 cctv 영상
@@ -48,8 +48,10 @@
   - videos
     - 카메라 각도 별 영상 목록
   
+<br/>
+
 #### 5. 사용환경, Tool 및 알고리즘 설명
-![image](https://user-images.githubusercontent.com/78459545/121863359-bc89af00-cd36-11eb-8740-3205f0ae7b89.png)
+<image src="https://user-images.githubusercontent.com/78459545/121863359-bc89af00-cd36-11eb-8740-3205f0ae7b89.png" width="500">
   - Google Colab pro 환경 내에 NVIDIA cudnn 설치하여 GPU 활성화
   - Darknet, PyTorch, Tensor Flow 프레임워크 별 YOLOv4, YOLOv5, TensorFlow Object Detection API 를 이용하여 proto data 학습 진행
 
@@ -74,25 +76,25 @@
   - YOLO v5
     - Darknet 기반이 아닌 pytorch 기반 Object Detection API
     - 레이어 수에 따라 s , m , l , x 로 구분되며 크기에 따라 속도와 정확도의 차이를 보임
-  
+
+<br/>
+
   #### 6. 전체 과정(요약)
 
   ##### 1) Labeling
   특정인 라벨링
-![image](https://user-images.githubusercontent.com/78459545/121805419-2eee8680-cc86-11eb-980f-d1c9270b778b.png)
+<image src="https://user-images.githubusercontent.com/78459545/121805419-2eee8680-cc86-11eb-980f-d1c9270b778b.png" width=500>
   
   A 영상과 B 영상에서 특정인 학습 후, C 영상에서 탐지
-  ![image](https://user-images.githubusercontent.com/78459545/121805359-f3ec5300-cc85-11eb-84d0-ae27eba418d8.png)
+<image src="https://user-images.githubusercontent.com/78459545/121805359-f3ec5300-cc85-11eb-84d0-ae27eba418d8.png" width=500>
 
   ##### 2) 데이터 학습 예시
-  ![image](https://user-images.githubusercontent.com/78459545/121805939-7c6bf300-cc88-11eb-94ae-7839234fad98.png)
+<image src="https://user-images.githubusercontent.com/78459545/121805939-7c6bf300-cc88-11eb-94ae-7839234fad98.png" width=500> 
   - YOLOv4 학습시 구성요소
     - config(.cfg) : 해당 모델의 학습 layer가 포함됨
     - .data : weight 저장경로, classes.txt(label) 경로, 학습 데이터 경로가 포함됨
     - classes.txt : label
     - yolov4.conv.137 : pre-trained model
-
-</br>
  
   ##### 3) 학습된 모델 구현 테스트
 Target
