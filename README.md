@@ -83,13 +83,13 @@
 
   ##### 1) Labeling
   특정인 라벨링
-<image src="https://user-images.githubusercontent.com/78459545/121805419-2eee8680-cc86-11eb-980f-d1c9270b778b.png" width=500>
+<image src="https://user-images.githubusercontent.com/78459545/121805419-2eee8680-cc86-11eb-980f-d1c9270b778b.png">
   
   A 영상과 B 영상에서 특정인 학습 후, C 영상에서 탐지
-<image src="https://user-images.githubusercontent.com/78459545/121805359-f3ec5300-cc85-11eb-84d0-ae27eba418d8.png" width=500>
+<image src="https://user-images.githubusercontent.com/78459545/121805359-f3ec5300-cc85-11eb-84d0-ae27eba418d8.png">
 
   ##### 2) 데이터 학습 예시
-<image src="https://user-images.githubusercontent.com/78459545/121805939-7c6bf300-cc88-11eb-94ae-7839234fad98.png" width=500> 
+<image src="https://user-images.githubusercontent.com/78459545/121805939-7c6bf300-cc88-11eb-94ae-7839234fad98.png"> 
   - YOLOv4 학습시 구성요소
     - config(.cfg) : 해당 모델의 학습 layer가 포함됨
     - .data : weight 저장경로, classes.txt(label) 경로, 학습 데이터 경로가 포함됨
