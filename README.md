@@ -130,7 +130,7 @@ Target
 
   ##### 2) YOLOv4
   
-  - 학습 Epochs 추가 → 정확도 증가(과적합 방지, 인식률) / 개선 전: epochs: 300(10분 학습) 개선 후: epochs: 2000(65분 학습)
+  - 학습 Epochs 추가 → 정확도 증가(과적합 방지, 인식률) / 개선 전후 학습 epochs: 300(10분 학습) / 2000(65분 학습)
 <image src="https://user-images.githubusercontent.com/78459545/122723100-822b8f00-d2ad-11eb-8cbd-bc96afcf5f1f.gif" width="400"/><image src="https://user-images.githubusercontent.com/78459545/122723291-c28b0d00-d2ad-11eb-8f83-dad02d508a38.gif" width="400"/>
   
   - 이미지 사이즈(width, height) 증강 적용 → 성능 변동 없음
@@ -139,7 +139,7 @@ Target
   - 노출도(exposure), 색조(hue) 증강 적용 → 정확도 증가(요인: 실외 이미지도 라벨링 처리한 점을 고려하여 노출도 조절)
 <image src="https://user-images.githubusercontent.com/78459545/122715476-e184a180-d2a3-11eb-8479-cb54c0576370.gif" width="400"/><image src="https://user-images.githubusercontent.com/78459545/122715637-1ee92f00-d2a4-11eb-8aff-6486d4790cfe.gif" width="400"/>
   
-  - pre-trained 모델 미적용 → 정확도 대폭 감소 / 적용 모델 학습 epochs: 2000(67분) 미적용 모델 학습 epochs: 5000(140분) 
+  - pre-trained 모델 미적용 → 정확도 감소 / 적용 모델 학습 epochs: 2000(67분) 미적용 모델 학습 epochs: 5000(140분) 
 <image src="https://user-images.githubusercontent.com/78459545/122727593-28799380-d2b2-11eb-9de5-9c5e17c0b6f7.gif" width="400"/><image src="https://user-images.githubusercontent.com/78459545/122727441-fd8f3f80-d2b1-11eb-9b70-f8cf1694bcdd.gif" width="400"/>
   
   ##### 3) YOLOv5
