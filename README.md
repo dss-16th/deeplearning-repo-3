@@ -51,13 +51,13 @@
 <br/>
 
 #### 5. 사용환경, Tool 및 알고리즘 설명
-<image src="https://user-images.githubusercontent.com/78459545/121863359-bc89af00-cd36-11eb-8740-3205f0ae7b89.png" width="500">
-  - Google Colab pro 환경 내에 NVIDIA cudnn 설치하여 GPU 활성화
-  - Darknet, PyTorch, Tensor Flow 프레임워크 별 YOLOv4, YOLOv5, TensorFlow Object Detection API 를 이용하여 proto data 학습 진행
 
   ##### 1) 사용환경, Tool
+<image src="https://user-images.githubusercontent.com/78459545/121863359-bc89af00-cd36-11eb-8740-3205f0ae7b89.png" width="500">
+
   - Tool : LabelImg, Yololabel, IINA player
   - 라이브러리 : TensorFlow GPU(install NVIDIA cudnn)
+    - Google Colab pro 환경 내에 NVIDIA cudnn 설치하여 GPU 활성화
   - 프레임워크 : TensorFlow, Darknet, PyTorch
   - 학습 알고리즘 : TensorFlow Object Detection, YOLOv4, YOLOv5
 
