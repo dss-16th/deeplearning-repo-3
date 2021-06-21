@@ -2,7 +2,7 @@
 
 <br/>
 
-<image src="https://user-images.githubusercontent.com/78460413/121121882-6eb70780-c85b-11eb-8d83-a39c5641a164.gif" width="500">
+<image src="https://user-images.githubusercontent.com/78460413/121121882-6eb70780-c85b-11eb-8d83-a39c5641a164.gif" width="700">
 
 ### 1. 진행 기간 : 2021. 5. 4. ~ 2021. 6. 3.
 
@@ -50,14 +50,14 @@
   
 <br/>
 
-#### 5. 사용환경, Tool 및 알고리즘 설명
+  #### 5. 사용환경, Tool 및 알고리즘 설명
 
   ##### 1) 사용환경, Tool
 <image src="https://user-images.githubusercontent.com/78459545/121863359-bc89af00-cd36-11eb-8740-3205f0ae7b89.png" width="500">
 
   - Tool : LabelImg, Yololabel, IINA player
-  - 라이브러리 : TensorFlow GPU(install NVIDIA cudnn)
-    - Google Colab pro 환경 내에 NVIDIA cudnn 설치하여 GPU 활성화
+  - 라이브러리 : TensorFlow GPU
+    - Google Colab pro 환경 내에 NVIDIA cudnn 설치하여 GPU 가속 활성화
   - 프레임워크 : TensorFlow, Darknet, PyTorch
   - 학습 알고리즘 : TensorFlow Object Detection, YOLOv4, YOLOv5
 
@@ -100,8 +100,6 @@
 Target
 <image src="https://user-images.githubusercontent.com/78459545/122564111-f5e85480-d07f-11eb-84f3-2c74478edaea.gif">
   - 테스트 모델(TFOD, V4, V5) 전체적으로 과적합/미인식 결과가 확인됨
-
-</br>
   
   ##### 4) 정확도 개선 시도
   - TFOD
@@ -135,10 +133,14 @@ Target
   - 학습 Epochs 추가 → 정확도 증가(과적합 방지, 인식률)
   **************gif**************************
   - 이미지 사이즈(width, height) 증강 적용 → 성능 변동 없음
-    - 요인 : 저화질 영상인 관계로 자세한 학습 불가
+    - 요인 : 저화질 영상인 관계로 자세한 학습 불가(학습 시간만 증가)
   **************gif**************************
   - 노출도(exposure), 색조(hue) 증강 적용 → 정확도 증가
     - 요인 : 라벨링 데이터 중 실외 이미지도 라벨링 처리한 점을 고려하여 노출도(exposure) 조절
+<image src="https://user-images.githubusercontent.com/78459545/122715476-e184a180-d2a3-11eb-8479-cb54c0576370.gif">
+<image src="https://user-images.githubusercontent.com/78459545/122715637-1ee92f00-d2a4-11eb-8aff-6486d4790cfe.gif">
+  - pre-trained 모델 미사용 → 정확도 대폭 감소
+    - 요인 : pre-trained 모델 미사용
   **************gif**************************
   
   ##### 3) YOLOv5
@@ -146,6 +148,9 @@ Target
   - 데이터 증강 후 학습시간 최소화
   **************ppt 25 page gif**************************
   - 원본 데이터, epochs 1000/76분학습 // 증강 데이터 활용, epochs 40/19분학습
+  
+  - 라벨링 방식 변화(타겟 3등분 라벨링) → 인식 빈도 향상
+  **************ppt 26 page gif**************************
   
   ##### 4) 모델 비교(학습 최소화)
   - v4                              v5
