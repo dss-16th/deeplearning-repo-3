@@ -152,7 +152,7 @@ Target
   
   - 라벨링 방식 변화(타겟 3등분 라벨링) → 인식 빈도 향상됨
   
-<image src="https://user-images.githubusercontent.com/78460413/125188457-d0113280-e26e-11eb-9a56-7e36722c4b88.gif" width="400"/><image src="https://user-images.githubusercontent.com/78460413/125188320-76106d00-e26e-11eb-86cc-382764955005.gif" width="400"/>
+<image src="https://user-images.githubusercontent.com/78460413/125188320-76106d00-e26e-11eb-86cc-382764955005.gif" width="400"/><image src="https://user-images.githubusercontent.com/78460413/125188457-d0113280-e26e-11eb-9a56-7e36722c4b88.gif" width="400"/>
 
   
   
