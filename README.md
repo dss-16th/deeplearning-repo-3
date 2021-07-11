@@ -146,7 +146,7 @@ Target
   ##### 3) YOLOv5
   
   - 데이터 증강 후 학습시간 최소화 : 원본 데이터, epochs 1000/76분학습  //  증강 데이터 활용, epochs 40/19분학습
-<image src="https://user-images.githubusercontent.com/78460413/125187468-c7b6f880-e26a-11eb-8aab-da51b6103bb1.gif" width="400"/><image src="https://user-images.githubusercontent.com/78460413/125187437-99d1b400-e26a-11eb-8f6e-8cd6cd13907e.gif" width="400"/>
+<image src="https://user-images.githubusercontent.com/78460413/125187468-c7b6f880-e26a-11eb-8aab-da51b6103bb1.gif" width="400"/><image src="https://user-images.githubusercontent.com/78460413/125187437-99d1b400-e26a-11eb-8f6e-8cd6cd13907e.gif" width="420"/>
 
 
   
@@ -157,7 +157,7 @@ Target
 
   - 원본 데이터 1/2, 학습시간 10분 적용(좌 : YOLOv4 / 우 : YOLOv5)
 
-<image src="https://user-images.githubusercontent.com/78459545/122730706-7cd24280-d2b5-11eb-9ada-971c875f6ed2.gif" width="400"/><image src="https://user-images.githubusercontent.com/78459545/122730573-57ddcf80-d2b5-11eb-98c8-bac2699607d0.gif" width="410"/>
+<image src="https://user-images.githubusercontent.com/78459545/122730706-7cd24280-d2b5-11eb-9ada-971c875f6ed2.gif" width="400"/><image src="https://user-images.githubusercontent.com/78459545/122730573-57ddcf80-d2b5-11eb-98c8-bac2699607d0.gif" width="400"/>
   - 차이점
     - YOLOv5의 경우 YOLOv4 대비 단시간 학습(10분 이하)는 타겟 탐지가 어려움
     - YOLOv4는 색 증강에 효과를 봤지만, YOLOv5는 색 관련 증강으로 성능 증가가 어려움
