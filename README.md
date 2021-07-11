@@ -146,7 +146,7 @@ Target
   ##### 3) YOLOv5
   
   - 데이터 증강 후 학습시간 최소화
-  **************ppt 25 page gif**************************
+ <image src="https://user-images.githubusercontent.com/78460413/125185105-abf92580-e25d-11eb-948b-d89bcb9fbc64.gif" width="400"/>
   - 원본 데이터, epochs 1000/76분학습 // 증강 데이터 활용, epochs 40/19분학습
   
   - 라벨링 방식 변화(타겟 3등분 라벨링) → 인식 빈도 향상
