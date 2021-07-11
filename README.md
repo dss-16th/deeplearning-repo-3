@@ -123,10 +123,11 @@ Target
   #### 7. 프로젝트 최종 결과
   ##### 1) TFOD
   
-  - MOG 적용하여 BackGound 삭제 후 Detection → 성능 하락
+  - MOG 적용하여 BackGound 삭제 후 Detection → 성능 하락 
     - 요인 : 실내 등의 빛 파장 또한 움직임으로 인식됨
-  ***************background gif 삽입**********************
-  - Affine(Shear, Scale) augment 적용 → 성능 변동 불확실
+    <image src="https://user-images.githubusercontent.com/78460413/125189215-e5d42700-e271-11eb-9f5c-78aadcf01812.gif" width="400"/>
+
+  - Affine(Shear, Scale) augment 적용 → 성능 변동 불확실 
   ***************affine gif 삽입***********************
 
   ##### 2) YOLOv4
