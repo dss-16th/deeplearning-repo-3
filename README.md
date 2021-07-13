@@ -128,7 +128,7 @@ Target
     <image src="https://user-images.githubusercontent.com/78460413/125189215-e5d42700-e271-11eb-9f5c-78aadcf01812.gif" width="400"/>
 
   - Affine(Shear, Scale) augment 적용 → 성능 변동 불확실 
-    <image src="https://user-images.githubusercontent.com/78460413/125189294-5418e980-e272-11eb-9574-1905582fe59c.png" width="400"/>
+  <image src="https://user-images.githubusercontent.com/78460413/125189294-5418e980-e272-11eb-9574-1905582fe59c.png" width="400"/>
 
 
   ##### 2) YOLOv4
